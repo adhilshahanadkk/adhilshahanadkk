@@ -1,0 +1,27 @@
+# Everything shown on your profile card lives here. Edit freely —
+# pushing a change to this file rebuilds the art automatically.
+
+username: adhilshahanadkk
+host: github            # shown as  username@host  in the card header
+
+# Static lines of the neofetch card (key: value). Keep values short (~40 chars).
+card:
+  - [Name,    "Adhil Shahanad"]
+  - [Role,    "AI/ML Engineer @ Virtusa"]
+  - [Focus,   "Computer Vision · Document AI"]
+  - [Building, "CV pipelines for engineering drawings"]
+  - [Stack,   "Python · PyTorch · OpenCV"]
+  - [Leads,   "an ML engineering team"]
+
+# Live stats block (pulled from GitHub on every run). Remove any you don't want.
+stats: [repos, stars, followers, contributions, streak]
+
+# Optional contact line at the bottom of the card. Leave empty to hide.
+contact: "github.com/adhilshahanadkk"
+
+portrait:
+  columns: 50           # width of the ASCII portrait in characters
+  contrast: 1.35        # >1 = punchier portrait
+  gamma: 1.0            # <1 brightens midtones, >1 darkens them
+  remove_background: true     # blank out a plain photo background
+  background_tolerance: 38    # raise if background bits remain, lower if it eats your face
